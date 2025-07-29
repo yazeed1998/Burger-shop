@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Jumbo’s Hamburgers</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-p8J3EhGD2R9LHDzc1iVWxPSgI9R4ti7YeP4v70TZDMH5AiK10Giv71h7RUTbzsVKjxQzlDglNJEkwLSeSns1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JSON-LD for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "name": "Jumbo's Hamburgers",
+    "image": "https://yourdomain.com/images/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6558 E 41st St",
+      "addressLocality": "Tulsa",
+      "addressRegion": "OK",
+      "postalCode": "74145",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-918-663-0944",
+    "openingHours": [
+      "Mo 10:00-19:00",
+      "Tu 10:00-19:00",
+      "We 10:00-19:00",
+      "Th 10:00-19:00",
+      "Fr 10:00-19:00",
+      "Sa 11:00-19:00"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <img src="images/logo.png" alt="Jumbo's Hamburgers Logo" class="logo">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 6558 E 41st St, Tulsa, OK 74145</p>
+    <p><strong>Phone:</strong> <a href="tel:+19186630944">(918) 663-0944</a></p>
+
+    <div class="hours">
+      <h3>Hours:</h3>
+      <ul>
+        <li><strong>Monday:</strong> 10 AM–7 PM</li>
+        <li><strong>Tuesday:</strong> 10 AM–7 PM</li>
+        <li><strong>Wednesday:</strong> 10 AM–7 PM</li>
+        <li><strong>Thursday:</strong> 10 AM–7 PM</li>
+        <li><strong>Friday:</strong> 10 AM–7 PM</li>
+        <li><strong>Saturday:</strong> 11 AM–7 PM</li>
+        <li><strong>Sunday:</strong> Closed</li>
+      </ul>
+    </div>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps?q=6558+E+41st+St+Tulsa+OK+74145&output=embed"
+        width="100%" height="450" style="border:0;"
+        allowfullscreen loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Floating Widgets -->
+  <div class="floating-widgets">
+    <!-- Grubhub, Instagram, Yelp links… -->
+  </div>
+
+  <footer class="site-footer">
+    <p>© 2025 Jumbo’s Hamburgers. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
